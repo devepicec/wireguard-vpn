@@ -47,7 +47,7 @@ sudo su
 ```bash
 sudo apt install wireguard
 sudo apt install wireguard-tools
-nano /etc/wg10.conf
+nano /etc/wireguard/wg10.conf
 sudo systemctl enable wg-quick@wg10
 sudo systemctl start wg-quick@wg10
 sudo systemctl status wg-quick@wg10
