@@ -43,6 +43,8 @@ chmod +x vpn.sh
 ## Modo VPN_EPNet
 ```bash
 sudo su
+```
+```bash
 sudo apt install wireguard
 sudo apt install wireguard-tools
 nano /etc/wg10.conf
