@@ -44,6 +44,7 @@ chmod +x vpn.sh
 ```bash
 sudo su
 sudo apt install wireguard
+sudo apt install wireguard-tools
 nano /etc/wg10.conf
 sudo systemctl enable wg-quick@wg10
 sudo systemctl start wg-quick@wg10
